@@ -19,7 +19,7 @@ clasificaçao= "peso ideal";
  else if (resp <= 30){
 clasificaçao= "levemente acima do peso ";
  }
- else if ( resp>30 ){
+ else if ( resp> 30){
 
 clasificacao="progamador termine a tabela";
  }
