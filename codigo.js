@@ -9,14 +9,14 @@ altura = parseFloat(document.getElementById("edtaltura").value) ;
 
 resp = peso / (altura * altura);
 
-if (resp <= 18.5){
+if (resp <= 18){
 clasificaçao= "abaixo do peso";
 }
-else if ( resp <= 24.9){
+else if (resp <= 25){
 
 clasificaçao= "peso ideal";
 }
- else if (resp <= 29.9){
+ else if (resp <= 30){
 clasificaçao= "levemente acima do peso ";
  }
  else {
