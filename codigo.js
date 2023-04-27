@@ -2,7 +2,7 @@ console.log("teste");
 
 function calculaimc() {
 
-let peso, altura, resp , clasificaçao;
+let peso, altura, resp , clasificacao;
 
 peso = parseFloat(document.getElementById("edtpeso").value) ;
 altura = parseFloat(document.getElementById("edtaltura").value) ;
@@ -21,8 +21,8 @@ clasificaçao= "levemente acima do peso ";
  }
  else {
 
-clasificaçao="progamador termine a tabela";
+clasificacao="progamador termine a tabela";
  }
 
- document.getElementById("resp").innerText ="o seu imc e: " + resp + "a sua classificaçao e : "+ clasificaçao;
+ document.getElementById("resp").innerText ="o seu imc e: " + resp + " a sua classificaçao e : "+ clasificaçao;
 }
