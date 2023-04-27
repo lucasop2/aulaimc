@@ -9,7 +9,7 @@ altura = parseFloat(document.getElementById("edtaltura").value) ;
 
 resp = peso / (altura * altura);
 
-if (resp <= 18,5){
+if (resp <= 18){
 clasificaçao= "abaixo do peso";
 }
 else if ( resp <= 24,9){
