@@ -12,11 +12,11 @@ resp = peso / (altura * altura);
 if (resp <= 18.5){
 clasificaçao= "abaixo do peso";
 }
-else if ( resp <= 24,9){
+else if ( resp <= 24.9){
 
 clasificaçao= "peso ideal";
 }
- else if (resp<= 29.9){
+ else if (resp <= 29.9){
 clasificaçao= "levemente acima do peso ";
  }
  else {
